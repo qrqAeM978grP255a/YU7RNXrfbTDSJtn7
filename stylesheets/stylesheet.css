@@ -152,16 +152,27 @@ a.button span {
   padding-left: 50px;
 }
 
+#download-binary span {
+  background: transparent url(../images/binary-icon.png) 12px 50% no-repeat;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
 #download-tar-gz span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
+#download-tar-gz {
+  margin-right: 0;
+}
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
 #view-on-github {
+  margin-top: 14px;
   margin-right: 0;
 }
 
